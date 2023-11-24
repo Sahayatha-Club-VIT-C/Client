@@ -1,10 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Navbar from './Components/navbar/navbar';
 function App() {
   return (
-    <div className="App">
-    <h1>Sahayatha</h1>  
+    <div className="appContainer">
+    <div className='appWrapper'>
+    <Navbar />
+
+    </div>
     </div>
   );
 }

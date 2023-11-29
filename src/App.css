@@ -1,16 +1,16 @@
-.appContainer{
+.appContainer {
   display: flex;
   align-items: center;
   flex-direction: column;
   width: 100vw;
-  height: 100vh;
-
+  height: fit-content;
+  /* height: 100vh; */
+  /* overflow-y: scroll; */
 }
-.appWrapper{
+.appWrapper {
   display: flex;
   align-items: center;
   flex-direction: column;
   width: 100%;
   height: 100%;
-
 }
